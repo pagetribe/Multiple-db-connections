@@ -259,3 +259,6 @@ Migrating to CreateExternalDatabaseModels (20090918115825)
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mParty Load (0.2ms)[0m   [0mSELECT * FROM `Party` [0m
   [4;36;1mParty Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mParty Columns (0.8ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
