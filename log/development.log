@@ -224,3 +224,38 @@ Migrating to CreateExternalDatabaseModels (20090918115825)
  FROM sqlite_master
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mExternalDatabaseModel Columns (0.0ms)[0m   [0mMysql::Error: Table 'getup.external_database_models' doesn't exist: SHOW FIELDS FROM `external_database_models`[0m
+  [4;36;1mExternalDatabaseModel Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'getup.external_database_models' doesn't exist: SHOW FIELDS FROM `external_database_models`[0m
+  [4;35;1mExternalDatabaseModel Columns (0.0ms)[0m   [0mMysql::Error: Table 'getup.external_database_models' doesn't exist: SHOW FIELDS FROM `external_database_models`[0m
+  [4;36;1mExternalDatabaseModel Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'getup.external_database_models' doesn't exist: SHOW FIELDS FROM `external_database_models`[0m
+  [4;35;1mExternalDatabaseModel Columns (0.0ms)[0m   [0mMysql::Error: Table 'getup.external_database_models' doesn't exist: SHOW FIELDS FROM `external_database_models`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mParty Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mParty Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mParty Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mParty Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mParty Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mMps Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'getup.mps' doesn't exist: SHOW FIELDS FROM `mps`[0m
+  [4;35;1mMps Columns (0.0ms)[0m   [0mMysql::Error: Table 'getup.mps' doesn't exist: SHOW FIELDS FROM `mps`[0m
+  [4;36;1mMps Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'getup.mps' doesn't exist: SHOW FIELDS FROM `mps`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mMPs Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `MPs`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mMps Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `MPs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mParty Load (0.2ms)[0m   [0mSELECT * FROM `Party` [0m
+  [4;36;1mParty Columns (0.6ms)[0m   [0;1mSHOW FIELDS FROM `Party`[0m

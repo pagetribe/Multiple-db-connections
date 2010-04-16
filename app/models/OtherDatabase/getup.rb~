@@ -1,0 +1,4 @@
+class Getup::Party < External
+end
+
+

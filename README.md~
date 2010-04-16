@@ -1,12 +1,6 @@
 Multiple Database Connections
 =====================================================================================================
 
-This is based on: http://github.com/GavinM/multiple_database_connections
-
-I have added 2 new models to access a local database called getup and the tables MPs and Party.
-
-
-
 This application is a quick example to connecting one or more of your models to an external database.
 
 Check out models: internal_database_model and external_database_model
